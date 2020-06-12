@@ -1,3 +1,5 @@
+WeatherOS v3.0
+
 In this version the serial communication between the main arduino and the secondary arduino was abandoned, as it caused many errors. Now I2C is used.
 
 Interrupt Pin Method to read Rai Gauge pulses caused false readings, now it uses a renewed system to read Rain Gauge Pulses.
