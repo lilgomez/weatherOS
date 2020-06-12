@@ -1,3 +1,5 @@
+WeatherOS V2.0
+
 In this Version a secondary arduino has been added which obtains the hours from an RTC and gives reset to the main arduino, so it is possible to memorize variables such as maximum temperature or the strongest gust of wind and at the end of the day zero these variables.
 
 With the RTC rain gauge readings can also be reset automatically.
