@@ -28,7 +28,6 @@ int atm = 0;
 #define SEALEVELPRESSURE_HPA (1013.25);
 
 //Anemometer
-const int m_time = 5;
 int wind_ct = 0;
 float wind = 0.0;
 float maxv = 0;
@@ -206,9 +205,9 @@ void vento() {
   wind_ct = 0;
   time = millis();
   attachInterrupt(1, countWind, RISING);
-  delay(1000 * m_time);
+  delay(1000);
   detachInterrupt(1);
-  wind = (float)wind_ct / (float)m_time * 2, 4;
+  wind = (float)wind_ct / (float)1000 * 2, 4;
 }
 
 
