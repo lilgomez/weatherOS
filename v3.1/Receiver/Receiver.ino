@@ -125,7 +125,7 @@ if(dir == "N"){
 } else if(dir == "NO"){
   direcao = "NO";
 } else if(dir == "O"){
-  direcao = "O";
+  direcao = "W";
 } else if(dir == "E"){
   direcao = "E";
 } else if(dir == "SE"){
