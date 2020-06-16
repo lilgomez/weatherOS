@@ -12,5 +12,5 @@ In this version a very simple php page was also included to show the database da
 
 Although changes have been made to the receiver code to avoid sending corrupt data, which crashes the program when it tries to write to the database, it may still be that due to long distances or even interference with the serial connection itself, unexpected crashes may occur.
 
-If you can receive the data just by running "weatheros.py", feel free to do so.
+If you can receive the data just by running "raspberry.py", feel free to do so.
 In case of a crash the file "keep.py" has been added which forces the program to run and logs when there is a restart.
