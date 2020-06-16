@@ -78,7 +78,7 @@ void loop() {
 
       j = LoRa.readStringUntil(';');
 
-      dir = "S";
+      
       direc(); //Security method to avoid errors in Raspberry
       
       wind = a.toFloat();
